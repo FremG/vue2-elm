@@ -20,7 +20,7 @@
             }
         },
         mounted(){
-      
+
         },
         props: ['alertText'],
         methods: {
@@ -29,6 +29,7 @@
             }
         }
     }
+
 </script>
 
 <style lang="scss" scoped>
@@ -38,6 +39,9 @@
        35%  { transform: scale(.8) }
        70%  { transform: scale(1.1) }
        100% { transform: scale(1) }
+    }
+    .ml10{
+      margin-left: 10px;
     }
     .alet_container{
     	position: fixed;
@@ -104,5 +108,5 @@
             border-bottom-right-radius: 0.25rem;
         }
     }
-    
+
 </style>
