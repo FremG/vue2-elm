@@ -43,6 +43,7 @@
     .ml10{
       margin-left: 10px;
     }
+    
     .alet_container{
     	position: fixed;
     	top: 0;
